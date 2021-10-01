@@ -13,6 +13,7 @@ bitflags = { version = "^1.3", optional = true }
 
 [features]
 env = []
+fmt = []
 styling = ["bitflags"]
 writers = ["styling", "not_styled_writer", "ansi_styled_writer"]
 not_styled_writer = ["styling"]

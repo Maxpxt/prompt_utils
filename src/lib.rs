@@ -11,3 +11,6 @@ pub mod writers;
 
 #[cfg(any(feature = "env"))]
 pub mod env;
+
+#[cfg(any(feature = "fmt"))]
+pub mod fmt;
