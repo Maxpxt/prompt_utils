@@ -13,4 +13,5 @@ bitflags = { version = "^1.3", optional = true }
 
 [features]
 styling = ["bitflags"]
-writers = ["styling"]
+writers = ["styling", "not_styled_writer"]
+not_styled_writer = ["styling"]
