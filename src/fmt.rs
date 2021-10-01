@@ -1,4 +1,7 @@
 //! Methods for formatting environment information.
 
+#[cfg(feature = "fmt-command_result")]
+pub mod command_result;
+
 #[cfg(feature = "fmt-path")]
 pub mod path;
