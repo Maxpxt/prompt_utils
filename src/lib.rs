@@ -9,8 +9,8 @@ pub mod styling;
 ))]
 pub mod writers;
 
-#[cfg(any(feature = "env"))]
+#[cfg(any(feature = "env", feature = "env-path"))]
 pub mod env;
 
-#[cfg(any(feature = "fmt"))]
+#[cfg(any(feature = "fmt", feature = "fmt-path"))]
 pub mod fmt;
