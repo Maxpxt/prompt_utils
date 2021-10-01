@@ -8,3 +8,6 @@ pub mod styling;
     feature = "ansi_styled_writer"
 ))]
 pub mod writers;
+
+#[cfg(any(feature = "env"))]
+pub mod env;
