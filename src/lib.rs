@@ -9,7 +9,12 @@ pub mod styling;
 ))]
 pub mod writers;
 
-#[cfg(any(feature = "env", feature = "env-command_result", feature = "env-path"))]
+#[cfg(any(
+    feature = "env",
+    feature = "env-access_rights",
+    feature = "env-command_result",
+    feature = "env-path",
+))]
 pub mod env;
 
 #[cfg(any(feature = "fmt", feature = "fmt-command_result", feature = "fmt-path"))]
