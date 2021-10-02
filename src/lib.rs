@@ -17,5 +17,10 @@ pub mod writers;
 ))]
 pub mod env;
 
-#[cfg(any(feature = "fmt", feature = "fmt-command_result", feature = "fmt-path"))]
+#[cfg(any(
+    feature = "fmt",
+    feature = "fmt-command_result",
+    feature = "fmt-duration",
+    feature = "fmt-path",
+))]
 pub mod fmt;
