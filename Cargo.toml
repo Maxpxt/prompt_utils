@@ -27,10 +27,11 @@ winapi = { version = "^0.3", optional = true, features = [
 users = { version = "^0.11", optional = true, default-features = false }
 
 [features]
-env = ["env-access_rights", "env-command_result", "env-path", "env-session"]
+env = ["env-access_rights", "env-command_result", "env-path", "env-python", "env-session"]
 env-access_rights = ["users", "winapi"]
 env-command_result = []
 env-path = ["dirs"]
+env-python = []
 env-session = ["hostname", "users", "winapi"]
 fmt = ["fmt-command_result", "fmt-duration", "fmt-path"]
 fmt-command_result = ["styling", "env-command_result"]

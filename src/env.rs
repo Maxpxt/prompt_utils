@@ -9,5 +9,8 @@ pub mod command_result;
 #[cfg(feature = "env-path")]
 pub mod path;
 
+#[cfg(feature = "env-python")]
+pub mod python;
+
 #[cfg(feature = "env-session")]
 pub mod session;
