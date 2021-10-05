@@ -14,6 +14,7 @@ pub mod writers;
     feature = "env-access_rights",
     feature = "env-command_result",
     feature = "env-path",
+    feature = "env-session",
 ))]
 pub mod env;
 
