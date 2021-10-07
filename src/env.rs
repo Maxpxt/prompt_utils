@@ -6,6 +6,9 @@ pub mod access_rights;
 #[cfg(feature = "env-command_result")]
 pub mod command_result;
 
+#[cfg(feature = "env-git")]
+pub mod git;
+
 #[cfg(feature = "env-path")]
 pub mod path;
 

@@ -13,6 +13,7 @@ pub mod writers;
     feature = "env",
     feature = "env-access_rights",
     feature = "env-command_result",
+    feature = "env-git",
     feature = "env-path",
     feature = "env-python",
     feature = "env-session",
@@ -23,6 +24,7 @@ pub mod env;
     feature = "fmt",
     feature = "fmt-command_result",
     feature = "fmt-duration",
+    feature = "fmt-git",
     feature = "fmt-path",
 ))]
 pub mod fmt;
